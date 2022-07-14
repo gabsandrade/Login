@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif ;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    BACKGROUND: #FFFF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px #20253e7a;
+    width: 400px;
+
+}
+
+.title{
+    color: #8d4a6ce3;
+}
+.secondText{
+    color: rgb(128, 127, 134);
+
+}
+.bottomText{
+    color: rgb(128, 127, 134);
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+.mediaCard{
+    background: url("https://static.itapemafm.com.br/s3fs-public/styles/itapema_blog_post_header/public/2020-01/A%20Viagem%20de%20Chihiro%20-%20Studio%20Ghibli.jpg?jFczccONK5tkDEDq9fod286jSiw2VboG&itok=aP52wa2c");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+}
+.topcard {
+    padding: 20px;
+    padding-bottom: 0px;
+
+}
+button.actions {
+    background: none;
+    border: none;
+    color: purple;
+    text-align: center;
+}
+.actionsCard {
+    text-align: center;
+    margin-block-end: 1em;
+
+    
+}
